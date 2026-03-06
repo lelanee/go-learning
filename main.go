@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(hello.Hello("Lan"))
+	messages := hello.Hello("Lan") + " from Main"
+	fmt.Println(messages)
 }
